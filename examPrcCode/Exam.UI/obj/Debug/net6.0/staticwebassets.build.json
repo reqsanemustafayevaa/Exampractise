@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "sN4ZqqBozZhptHjAHS/7upbMINgoCDNxv2aiw8tF0KM=",
+  "Source": "Exam.UI",
+  "BasePath": "_content/Exam.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Exam.UI\\wwwroot",
+      "Source": "Exam.UI",
+      "ContentRoot": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\wwwroot\\",
+      "BasePath": "_content/Exam.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Exam.UI.styles.css",
+      "SourceId": "Exam.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Exam.UI",
+      "RelativePath": "Exam.UI.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Exam.UI.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Exam.UI.bundle.scp.css",
+      "SourceId": "Exam.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Exam.UI",
+      "RelativePath": "Exam.UI.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Exam.UI.bundle.scp.css"
+    }
+  ]
+}
