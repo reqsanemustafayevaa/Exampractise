@@ -1,0 +1,12 @@
+﻿@model Doctor
+<form method="post" enctype="multipart/form-data">
+    <div class="card" style="width: 18rem;">
+        <img src="~/uploads/doctors/@Model.ImageUrl" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Position</p>
+            <button class="btn btn-danger">delete</button>
+            <a asp-action="index" asp-controller="doctor" class="btn btn-primary">Go home</a>
+        </div>
+    </div>
+</form>

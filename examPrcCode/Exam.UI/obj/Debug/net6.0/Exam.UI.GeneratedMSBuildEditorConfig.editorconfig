@@ -16,8 +16,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Masaüstü\Exampractise\examPrcCode\Exam.UI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Doctor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXERvY3RvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Doctor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXERvY3RvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXERvY3RvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Doctor/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXERvY3RvclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcbWFuYWdlXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Masaüstü/Exampractise/examPrcCode/Exam.UI/areas/manage/Views/Shared/_Layout.cshtml]

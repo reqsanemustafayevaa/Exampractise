@@ -53,16 +53,15 @@ namespace Exam.business.services.Implementations
 
         public async Task Delete(int id)
         {
-            var existdoctor=await _doctorRepository.GetSingleAsync(x=>x.Id==id);
-            if(existdoctor == null)
+            var existfeature = await _doctorRepository.GetSingleAsync(x => x.Id == id);
+            if (existfeature is null)
             {
                 throw new EntityNotfoundException();
             }
-            Helper.DeleteFile(_env.WebRootPath, "uploads/doctors",existdoctor.ImageUrl);
-            _doctorRepository.Delete(existdoctor);
+            Helper.DeleteFile(_env.WebRootPath, "uploads/doctors", existfeature.ImageUrl);
+            _doctorRepository.Delete(existfeature);
             await _doctorRepository.CommitAsync();
         }
-
         public async Task<List<Doctor>> GetAllAsync()
         {
             return await _doctorRepository.GetAllAsync().ToListAsync();

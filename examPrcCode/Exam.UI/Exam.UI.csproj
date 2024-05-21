@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\manage\Controllers\" />
+    <Folder Include="areas\manage\Views\Account\" />
     <Folder Include="Areas\manage\Views\Dashboard\" />
     <Folder Include="wwwroot\uploads\doctors\" />
   </ItemGroup>

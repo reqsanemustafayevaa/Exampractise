@@ -1,0 +1,41 @@
+﻿@model Doctor
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" placeholder="Enter Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Position">Position</label>
+        <input asp-for="Position" class="form-control" placeholder="Enter Position">
+        <span asp-validation-for="Position" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TwitterUrl">TwitterUrl</label>
+        <input asp-for="TwitterUrl" class="form-control" placeholder="Enter TwitterUrl">
+        <span asp-validation-for="TwitterUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InstaUrl">InstaUrl</label>
+        <input asp-for="InstaUrl" class="form-control" placeholder="Enter InstaUrl">
+        <span asp-validation-for="InstaUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LNKUrl">LNKUrl</label>
+        <input asp-for="LNKUrl" class="form-control" placeholder="Enter LNKUrl">
+        <span asp-validation-for="LNKUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Fburl">Fburl</label>
+        <input asp-for="Fburl" class="form-control" placeholder="Enter Fburl">
+        <span asp-validation-for="Fburl" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile">ImageFile</label>
+        <input asp-for="ImageFile" class="form-control" placeholder="Enter ImageFile">
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Update</button>
+</form>

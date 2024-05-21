@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "99oWcut29znWn/r8Q10sMh0jEO6RJrACx/mFMSX+85k=",
+  "Hash": "UEso9hZ4h88wg2fmeUPm+qqJgAwRPilkzrvV+T+tGRk=",
   "Source": "Exam.UI",
   "BasePath": "_content/Exam.UI",
   "Mode": "Default",
@@ -33981,6 +33981,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\wwwroot\\uploads\\doctors\\f78d6340-cde6-4277-8f8c-42691b7edc91pngtree-cute-puppy-wallpapers-image_2669700.jpg",
+      "SourceId": "Exam.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\wwwroot\\",
+      "BasePath": "_content/Exam.UI",
+      "RelativePath": "uploads/doctors/f78d6340-cde6-4277-8f8c-42691b7edc91pngtree-cute-puppy-wallpapers-image_2669700.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\doctors\\f78d6340-cde6-4277-8f8c-42691b7edc91pngtree-cute-puppy-wallpapers-image_2669700.jpg"
     }
   ]
 }

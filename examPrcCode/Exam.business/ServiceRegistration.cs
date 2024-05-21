@@ -1,4 +1,5 @@
-﻿using Exam.business.services.Interfaces;
+﻿using Exam.business.services.Implementations;
+using Exam.business.services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Exam.business
     {
         public static void ServiceRegister(this IServiceCollection serviceDescriptors)
         {
-            serviceDescriptors.AddScoped<IDoctorService,IDoctorService>();
+            serviceDescriptors.AddScoped<IDoctorService,DoctorService>();
         }
     }
 }

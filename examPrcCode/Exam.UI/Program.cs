@@ -1,5 +1,13 @@
 using Exam.Data.DAL;
 using Microsoft.EntityFrameworkCore;
+using Exam.Data;
+using Exam.business;
+using Exam.Core.repositories.Interfaces;
+using Exam.Data.Repositories.implementations;
+using Exam.business.services.Interfaces;
+using Exam.business.services.Implementations;
+using Exam.Core.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Exam.UI
 {
@@ -15,6 +23,17 @@ namespace Exam.UI
             {
                 opt.UseSqlServer("server=DESKTOP-4T5RTRO;Database=medicalPractise;Trusted_Connection=True");
             });
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IDoctorRepository,DoctorRepository>();
+            builder.Services.AddScoped<IDoctorService, DoctorService>();
+            
 
             var app = builder.Build();
 
@@ -30,8 +49,9 @@ namespace Exam.UI
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
+
             app.MapControllerRoute(
             name: "areas",
             pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"

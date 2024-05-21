@@ -7989,6 +7989,10 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\User\\Masaüstü\\Exampractise\\examPrcCode\\Exam.UI\\wwwroot\\uploads\\doctors\\f78d6340-cde6-4277-8f8c-42691b7edc91pngtree-cute-puppy-wallpapers-image_2669700.jpg",
+      "PackagePath": "staticwebassets\\uploads\\doctors\\f78d6340-cde6-4277-8f8c-42691b7edc91pngtree-cute-puppy-wallpapers-image_2669700.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Exam.UI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
